@@ -96,14 +96,22 @@ with open("letter_templates/letter_3.txt", "r")  as letter3:
 random_letter=random.choice(letter_list)
 print(random_letter)
 
+
 #obtenemos el lugar donde esta escrito [NAME]
 initial_msg=random_letter[0]
 print(initial_msg)
+
 
 #incrustamos el　nombre de nuestro amigo en [NAME]    
 new_initial_msg=initial_msg.replace("[NAME]", friend_name)
 print(new_initial_msg)
 
+
+#remplazamos el inicio del mensaje con el nuevo mensaje en random_letter
+random_letter[0]=new_initial_msg
+print(random_letter)
+
+#NOTE: TENEMOS EN FORMATO LISTA, LA CARTA PERSONALIZADA CON EL NOMBRE DE NUESTRO AMIGO, ...APARTIR DE AHORA CREAR LA CARTA EN FORMATO .TXT
 
 # 4. Send the letter generated in step 3 to that person's email address.
 
