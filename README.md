@@ -3,9 +3,15 @@ This repository contains a Python script that automatically sends a personalized
 
 Tools Used:
 
-Python: The script is written in Python.
 pandas: Used to read the CSV file containing the birthdays.
+
 datetime: Used to get the current date.
+
 smtplib: Used to send the email via Gmail’s SMTP server.
+
 email: Used to create the email message.
+
 random: Used to select a random letter template.
+
+
+![app img](https://github.com/bardack134/Automated-birthday-wishes/assets/142977989/d9aacf6b-db43-4f54-94b4-66e62a1ef4af)
